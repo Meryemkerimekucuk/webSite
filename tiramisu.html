@@ -4,67 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiramisu</title>
+
+    <style>
+        body {
+          background-color: #fff8f0;
+          margin: 20px;
+          font-family: Arial, sans-serif;
+          color: #333;
+        }
+    
+        h1 {
+          color: #8b0000;
+        }
+    
+        table {
+          border-collapse: collapse;
+          width: 60%;
+          margin-bottom: 20px;
+        }
+    
+        th, td {
+          border: 1px solid #8b0000;
+          padding: 10px;
+          text-align: left;
+        }
+    
+        form {
+          border: 2px solid #8b0000;
+          padding: 20px;
+          width: 50%;
+          background-color: #fff0f0;
+        }
+    
+        label {
+          display: block;
+          margin-top: 10px;
+          font-weight: bold;
+        }
+    
+        input, textarea {
+          width: 100%;
+          padding: 8px;
+          margin-top: 5px;
+        }
+    
+        button {
+          margin-top: 10px;
+          padding: 10px;
+          background-color: #8b0000;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+    
+        button:hover {
+          background-color: #a00000;
+        }
+      </style>
 </head>
 <body>
     <h1>Tiramisu Tarifi</h1>
     <br>
     <img src="images/tiramisu.png" alt="tiramisu">
-    <br>
+    <br><br><br><br>
     
-    <h3>Malzemeler : </h3>
-    <p>
-    Kedi Dili Bisküvileri: <br>
-    24 adet kedi dili bisküvisi <br><br>
+   
+    <table border="2">
+        <caption><strong>Tiramisu İçin Kullanılacak Malzemeler</strong></caption> 
+        <thead>
+            <tr>
+                <th>Malzeme Grubu</th>
+                <th>Malzemeler</th>
+            </tr>
+        </thead>
+        
 
-    Kahveli Karışım: <br>
-    1 su bardağı sıcak su <br>
-    2 yemek kaşığı granül kahve <br>
-    1 yemek kaşığı şeker (isteğe bağlı) <br><br>
-
-    Krema: <br>
-    4 adet yumurta sarısı <br>
-    1/2 su bardağı toz şeker <br>
-    250 gram mascarpone peyniri <br>
-    1 su bardağı krema <br><br>
-
-    Üzeri için: <br>
-    Kakao tozu
-    </p><br>
+        <tbody>
+            <tr>
+                <td><strong>Kedi Dili Bisküvileri</strong></td>
+                <td>24 adet kedi dili bisküvisi</td>
+            </tr>
+            <tr>
+                <td><strong>Kahveli Karışım</strong></td>
+                <td>
+                    <ul>
+                        <li>1 su bardağı sıcak su</li>
+                        <li>2 yemek kaşığı granül kahve</li>
+                        <li>1 yemek kaşığı şeker (isteğe bağlı)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Krema</strong></td>
+                <td>
+                    <ul>
+                        <li>4 adet yumurta sarısı</li>
+                        <li>1/2 su bardağı toz şeker</li>
+                        <li>250 gram mascarpone peyniri</li>
+                        <li>1 su bardağı krema</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Üzeri için</strong></td>
+                <td>Kakao tozu</td>
+            </tr>
+        </tbody>
+    </table>
 
     <h3>Hazırlanışı : </h3>
     <p>
-        Kahveli Karışımı Hazırlayın: <br><br>
-        Sıcak suda kahveyi ve şekeri eritin. <br>
-        Soğumaya bırakın. <br><br><br>
+      <ul>
+        <li><strong> Kahveli Karışımı Hazırlayın:</strong> </li>
+    </ul>   
+        <ol>
+        
+<li>Sıcak suda kahveyi ve şekeri eritin. </li>
+<li>Soğumaya bırakın. </li>
+        </ol>
+      
+        <br>
 
-        Kremayı Hazırlayın: <br><br>
-        Yumurta sarılarını ve şekeri benmari usulü (kaynayan suyun üzerine oturtulmuş bir kapta) çırpın. <br>
-        Krema koyulaşana kadar karıştırın. <br>
-        Ocaktan alıp soğumaya bırakın. <br>
-        Mascarpone peynirini ekleyip pürüzsüz hale gelene kadar karıştırın. <br>
-        Ayrı bir kapta kremayı çırpın ve mascarpone karışımına ekleyip nazikçe karıştırın. <br><br><br>
+     <ul>
+        <li> <strong> Kremayı Hazırlayın: </strong></li>
+    </ul> 
+     <ol>
+        <li> Yumurta sarılarını ve şekeri benmari usulü (kaynayan suyun üzerine oturtulmuş bir kapta) çırpın.</li>
+        <li> Krema koyulaşana kadar karıştırın.</li>
+        <li> Ocaktan alıp soğumaya bırakın. </li>
+        <li>Mascarpone peynirini ekleyip pürüzsüz hale gelene kadar karıştırın.</li>
+        <li>Ayrı bir kapta kremayı çırpın ve mascarpone karışımına ekleyip nazikçe karıştırın.</li>
+     </ol>
+        
+       <br>
 
-        Tiramisuyu Birleştirin: <br><br>
-        Kedi dili bisküvilerini kahveli karışıma batırın ve bir tepsinin tabanına dizin. <br>
-        Üzerine kremanın yarısını yayın. <br>
-        Bir kat daha kahveli bisküvi dizin ve kalan kremayı yayın. <br>
-        Üzerini kakao tozu ile kaplayın. 
-        <br><br><br>
-        Soğutun: <br><br>
-        Tiramisuyu buzdolabında en az 4 saat, tercihen bir gece soğutun.
-        <br><br><br>
-        Servis Yapın: <br><br>
-        Soğuk olarak servis yapın.</p>
+     
+    <ul>
+        <li><strong>Tiramisuyu Birleştirin: </strong></li>
+    </ul>   
+    <ol>
+        <li>Kedi dili bisküvilerini kahveli karışıma batırın ve bir tepsinin tabanına dizin.</li>
+        <li>Üzerine kremanın yarısını yayın. </li>
+        <li>Bir kat daha kahveli bisküvi dizin ve kalan kremayı yayın. </li>
+        <li> Üzerini kakao tozu ile kaplayın. </li>
+    </ol>
+         
+       
+        <br>
+<ul>
+    <li><strong>Soğutun: </strong></li>
+</ul>
+<ol>
+    <li> Tiramisuyu buzdolabında en az 4 saat, tercihen bir gece soğutun.</li>
+</ol>
+       
+        <br>
+
+     <ul>
+        <li> <strong>Servis Yapın: </strong> </li>
+    </ul> 
+      <ol>
+        <li>Soğuk olarak servis yapın.</li>
+    </ol>  </p>
         <br>
         <h3>Püf Noktaları : </h3>
         <p>
-            Yumurta sarılarını benmari usulü pişirirken sürekli karıştırın, aksi takdirde pişebilirler. <br>
-            Mascarpone peynirini ve kremayı soğuk kullanın. <br>
-            Kedi dili bisküvilerini kahveli karışıma çok fazla batırmayın, aksi takdirde çok yumuşak olurlar. <br>
-            Tiramisuyu ne kadar uzun süre soğutursanız, o kadar lezzetli olur. <br>
-            İsteğe bağlı olarak, tiramisunun içine çikolata parçaları veya kahve likörü ekleyebilirsiniz. 
+            <ul>
+              <li>Yumurta sarılarını benmari usulü pişirirken sürekli karıştırın, aksi takdirde pişebilirler.</li>  
+              <li> Mascarpone peynirini ve kremayı soğuk kullanın. </li> 
+              <li>Kedi dili bisküvilerini kahveli karışıma çok fazla batırmayın, aksi takdirde çok yumuşak olurlar.</li> 
+              <li>Tiramisuyu ne kadar uzun süre soğutursanız, o kadar lezzetli olur.</li> 
+              <li>İsteğe bağlı olarak, tiramisunun içine çikolata parçaları veya kahve likörü ekleyebilirsiniz. </li> 
+            </ul>
+           
         </p>
         <br><br><br>
         <a href="index.html">Anasayfaya dön</a>
+
+        <h2>Geri Bildirim Formu</h2>
+        <form>
+          <label for="ad">Adınız:</label>
+         <p><input type="text" id="ad" name="ad" required /></p> 
+      
+          <label for="yorum">Tarif hakkındaki yorumunuz:</label>
+          <p><textarea id="yorum" name="yorum" rows="4" required></textarea></p>
+      
+          <button type="submit">Gönder</button>
+        </form>
 </body>
 </html>
