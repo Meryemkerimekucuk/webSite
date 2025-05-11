@@ -1,0 +1,147 @@
+
+
+ body{
+  background-color:lightpink;
+   margin: 20px;
+  font-family: Arial, sans-serif;
+ color: #333;
+
+ }
+
+.index h1{
+  color: #8b0000;
+  margin-left: 590px;
+  margin-right: 590px;
+  
+
+}
+.index table{
+  
+     border-collapse: collapse;
+     width: 60%;
+ margin-bottom: 20px;
+    color: #8b0000;
+  margin-left: 350px;
+  margin-right: 400px;
+  
+
+  th, td {
+  border: 1px solid #8b0000;
+ padding: 10px;
+ text-align: left;
+ }
+}
+ .fırında_sebzeli_tavuk h1 {
+   color: #8b0000;
+   margin-left: 500px;
+   margin-right: 500px;
+  }
+.imam_bayıldı h1{
+    color: #8b0000;
+    margin-left: 590px;
+    margin-right: 590px;
+  }
+  .tiramisu h1{
+    color: #8b0000;
+    margin-left: 590px;
+    margin-right: 590px;
+  }
+  .krem_karamel h1{
+    color: #8b0000;
+    margin-left: 580px;
+    margin-right: 580px;
+  }
+  .risotto h1{
+    color: #8b0000;
+    margin-left: 580px;
+    margin-right: 580px;
+  }
+  .coq_au_vin h1{
+    color: #8b0000;
+    margin-left: 580px;
+    margin-right: 580px;
+  }
+.hakkımızda h1{
+  color: #8b0000;
+  margin-left: 580px;
+  margin-right: 580px;
+}
+.iletişim h1{
+  color: #8b0000;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+.ekler h1{
+  color: #8b0000;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+.köstebek_pasta h1{
+  color: #8b0000;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+ h2{
+  color: #8b0000;
+  margin-left: 650px;
+  margin-right: 500px;
+}
+
+
+
+   table {
+     border-collapse: collapse;
+     width: 60%;
+ margin-bottom: 20px;
+    }
+
+  th, td {
+  border: 1px solid #8b0000;
+ padding: 10px;
+ text-align: left;
+ }
+ 
+    form {
+   border: 3px solid #8b0000;
+   padding: 30px;
+  width: 40%;
+  background-color: #fff0f0;
+  margin-left: 400px;
+  margin-right:400px;
+  }
+label {
+ display: block;
+ margin-top: 10px;
+  font-weight: bold;
+ 
+}
+ input, textarea {
+  width: 90%;
+  padding: 10px;
+      margin-top: 5px;
+   }
+ button {
+  margin-top: 20px;
+  padding: 10px;
+   background-color: #8b0000;
+   color: white;
+  border: none;
+  cursor: pointer;
+   }
+   
+    button:hover {
+ background-color: #a00000;
+  }
+img{
+  width: 650px;
+  height: 350px;
+}
+ nav ul {
+  margin-left: 1200px;
+  margin-right: 10px;
+    list-style: none;
+     display: flex; 
+    gap: 20px; 
+   
+    }
+ 
